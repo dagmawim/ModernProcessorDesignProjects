@@ -1,0 +1,933 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Windows/System32/config/systemprofile/Desktop/Developer/VHDL
+Ealu
+Z0 w1506801449
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code
+Z7 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/alu.vhd
+Z8 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/alu.vhd
+l0
+L7
+VfVjU;?N]jolb0aDaT_Q^G1
+!s100 _8loijzm^6c5n>zj^j>X`1
+Z9 OP;C;10.4a;61
+32
+Z10 !s110 1506801601
+!i10b 1
+Z11 !s108 1506801601.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/alu.vhd|
+Z13 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/alu.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit -O0
+Z15 tExplicit 1
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 fVjU;?N]jolb0aDaT_Q^G1
+l22
+L17
+VZH4XecU79b8UR3OUnC7`<3
+!s100 kRO4C1LDX2lS<92YW8IC=3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ealuadd
+Z16 w1506801447
+R3
+R4
+R5
+R6
+Z17 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/aluadd.vhd
+Z18 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/aluadd.vhd
+l0
+L7
+VmPBN=WgX^1OzGk3QTomML0
+!s100 gIQ@@IJPdZO7Xn4_:G_C[0
+R9
+32
+Z19 !s110 1506801603
+!i10b 1
+Z20 !s108 1506801603.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/aluadd.vhd|
+Z22 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/aluadd.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+DEx4 work 6 aluadd 0 22 mPBN=WgX^1OzGk3QTomML0
+l15
+L13
+V<4KP8bgT0ONZzm]Q=0BUA1
+!s100 DNij<Ro]CONFHI[<?f2IU0
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Ealucontrol
+Z23 w1506799555
+R2
+R1
+R4
+R5
+R6
+Z24 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/ALUControl.vhd
+Z25 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/ALUControl.vhd
+l0
+L13
+V57T]k_38MHmjllYzWj8nf3
+!s100 [h_:4bP96YF8``VYmROX13
+R9
+32
+Z26 !s110 1506801602
+!i10b 1
+Z27 !s108 1506801602.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/ALUControl.vhd|
+Z29 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/ALUControl.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R1
+R4
+R5
+DEx4 work 10 alucontrol 0 22 57T]k_38MHmjllYzWj8nf3
+l23
+L22
+Vi^Fn^XhmeF:c2=;:66dk]3
+!s100 m[D?=?2K=Bbe3aFJ752[>2
+R9
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Eand2
+Z30 w1506801446
+R1
+R2
+R3
+R4
+R5
+R6
+Z31 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd
+Z32 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd
+l0
+L6
+VfS1=G<lg[iZIZ;jF=OcT53
+!s100 4fZ<CP>zYmi4_G2lP4nFG2
+R9
+32
+R19
+!i10b 1
+R20
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd|
+Z34 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd|
+!i113 1
+R14
+R15
+Abehav
+R1
+R2
+R3
+R4
+R5
+DEx4 work 4 and2 0 22 fS1=G<lg[iZIZ;jF=OcT53
+l11
+L10
+V0dLlmIHHo0iXKHe4HRZcX1
+!s100 2Y5F3PQkiFT?B_>f@FL1X0
+R9
+32
+R19
+!i10b 1
+R20
+R33
+R34
+!i113 1
+R14
+R15
+Econtrol
+Z35 w1506801453
+R4
+R5
+R6
+Z36 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/control_unit.vhd
+Z37 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/control_unit.vhd
+l0
+L4
+VjNE:j_<zcg<<6k_P@5daP2
+!s100 S4nSzNHj8lVlYZX`B=k9K1
+R9
+32
+R26
+!i10b 1
+R27
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/control_unit.vhd|
+Z39 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/control_unit.vhd|
+!i113 1
+R14
+R15
+Abehav
+R4
+R5
+DEx4 work 7 control 0 22 jNE:j_<zcg<<6k_P@5daP2
+l13
+L12
+V<S94V6[;e;XFgQLIG8Qe10
+!s100 GAUa7QD0R]1_[g`DKFEh?2
+R9
+32
+R26
+!i10b 1
+R27
+R38
+R39
+!i113 1
+R14
+R15
+Econtrol_unit
+Z40 w1506736204
+R4
+R5
+R6
+R36
+R37
+l0
+L4
+VR=>VB6ad`KachR[zd;W0l2
+!s100 FLhVI8i;fTRZEPUG]kn[h2
+R9
+32
+Z41 !s110 1506737731
+!i10b 1
+Z42 !s108 1506737731.000000
+R38
+R39
+!i113 1
+R14
+R15
+Abehav
+R4
+R5
+DEx4 work 12 control_unit 0 22 R=>VB6ad`KachR[zd;W0l2
+l19
+L18
+V3JSXl0PDlkIDb6Z1TLi@c2
+!s100 hZX_jIK9GGDL;C2XMlDEi3
+R9
+32
+R41
+!i10b 1
+R42
+R38
+R39
+!i113 1
+R14
+R15
+Ecpu
+Z43 w1506801556
+R2
+R1
+R4
+R5
+R6
+Z44 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mipProcessor.vhd
+Z45 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mipProcessor.vhd
+l0
+L7
+VaITX:>KVKjlOi<V4lhDFL2
+!s100 S^TV8CDRaKH<Wcnfjhe423
+R9
+32
+R26
+!i10b 1
+R27
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mipProcessor.vhd|
+Z47 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mipProcessor.vhd|
+!i113 1
+R14
+R15
+Astructural
+R2
+R1
+R4
+R5
+DEx4 work 3 cpu 0 22 aITX:>KVKjlOi<V4lhDFL2
+l118
+L15
+VUBocbjoH3m<cjM8mNL=AS3
+!s100 Gk0[]8cZd:NN]Q1F5W7hL1
+R9
+32
+R26
+!i10b 1
+R27
+R46
+R47
+!i113 1
+R14
+R15
+Edatamemory
+Z48 w1506801451
+R2
+R1
+R4
+R5
+R6
+Z49 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/memory.vhd
+Z50 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/memory.vhd
+l0
+L12
+VlMII]H11LA40:BeoEATOI2
+!s100 JF7ZbojFfMbQ^FPKZ^D7<0
+R9
+32
+R26
+!i10b 1
+R27
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/memory.vhd|
+Z52 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/memory.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R1
+R4
+R5
+DEx4 work 10 datamemory 0 22 lMII]H11LA40:BeoEATOI2
+l59
+L20
+VZ<M1nG5>>5`Q9m=gD3i@_3
+!s100 Kzn>lDl_;dYUh4C4OVz003
+R9
+32
+R26
+!i10b 1
+R27
+R51
+R52
+!i113 1
+R14
+R15
+Einstmemory
+Z53 w1506797466
+R3
+R4
+R5
+R6
+Z54 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/InstructionMemory.vhd
+Z55 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/InstructionMemory.vhd
+l0
+L14
+VDB>ez]RSR7M2X;:fNnNjW0
+!s100 S[8Sf;;8E:YHn<AhJ82gB1
+R9
+32
+R10
+!i10b 1
+R11
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/InstructionMemory.vhd|
+Z57 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/InstructionMemory.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+DEx4 work 10 instmemory 0 22 DB>ez]RSR7M2X;:fNnNjW0
+l60
+L21
+V5cm5kR4Uh<4mnP_1e6Kg]2
+!s100 laD_7lYD_F8Id@HXIm7;N2
+R9
+32
+R10
+!i10b 1
+R11
+R56
+R57
+!i113 1
+R14
+R15
+Einstructionmemory
+R40
+R3
+R4
+R5
+R6
+R54
+R55
+l0
+L14
+VjJ17HHJB04OQ4j@j2mn[X1
+!s100 Y1kHT]NnDjeDOgd9LnPQo0
+R9
+32
+R41
+!i10b 1
+Z58 !s108 1506737730.000000
+R56
+R57
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+DEx4 work 17 instructionmemory 0 22 jJ17HHJB04OQ4j@j2mn[X1
+l60
+L21
+VD4[6SL@b<ATHX@X;cjzc<1
+!s100 GTJU6j3J4ThGiR5PbaYIg3
+R9
+32
+R41
+!i10b 1
+R58
+R56
+R57
+!i113 1
+R14
+R15
+Ememory
+R40
+R2
+R1
+R4
+R5
+R6
+R49
+R50
+l0
+L12
+VAzKYWSP:JQNe4X<5;?dXT0
+!s100 JlzkbXT:oeB<YXPzfE;g51
+R9
+32
+R41
+!i10b 1
+R42
+R51
+R52
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R1
+R4
+R5
+DEx4 work 6 memory 0 22 AzKYWSP:JQNe4X<5;?dXT0
+l59
+L21
+VSGXDj;6hh7C[]4z1>C8CN1
+!s100 5WL27M:4aOFaPAkBje8NV1
+R9
+32
+R41
+!i10b 1
+R42
+R51
+R52
+!i113 1
+R14
+R15
+Emipsprocessor
+R40
+R2
+R1
+R4
+R5
+R6
+R44
+R45
+l0
+L7
+VVl?nHcC0a2YKYFI[YJ<zQ1
+!s100 E6SR^4:QSna^jB;dXlokR0
+R9
+32
+R41
+!i10b 1
+R42
+R46
+R47
+!i113 1
+R14
+R15
+Astructural
+R2
+R1
+R4
+R5
+DEx4 work 13 mipsprocessor 0 22 Vl?nHcC0a2YKYFI[YJ<zQ1
+l147
+L13
+VW[al7=:g9jTk63c`;MI630
+!s100 z]bd;@ViZ]6F]_PA[ijd12
+R9
+32
+R41
+!i10b 1
+R42
+R46
+R47
+!i113 1
+R14
+R15
+Emux32
+Z59 w1506801454
+R4
+R5
+R6
+Z60 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux32.vhd
+Z61 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux32.vhd
+l0
+L3
+VWE?0M@e@JOalUZPhVEN5?1
+!s100 c4ZUcTGj:E85Un1bRHZP=3
+R9
+32
+R10
+!i10b 1
+R11
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux32.vhd|
+Z63 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux32.vhd|
+!i113 1
+R14
+R15
+Abehav1
+R4
+R5
+DEx4 work 5 mux32 0 22 WE?0M@e@JOalUZPhVEN5?1
+l10
+L9
+VDWHBDAbR1QE_JQS=`42bQ3
+!s100 PDMC5V6GDPc4fPGikAi^;2
+R9
+32
+R10
+!i10b 1
+R11
+R62
+R63
+!i113 1
+R14
+R15
+Emux5
+Z64 w1506801466
+R4
+R5
+R6
+Z65 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux5.vhd
+Z66 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux5.vhd
+l0
+L3
+V[nnaHLzA9h]1TSicI8`371
+!s100 [Lo>RfnU3NY@hgYe07ZMM2
+R9
+32
+R19
+!i10b 1
+R20
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux5.vhd|
+Z68 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux5.vhd|
+!i113 1
+R14
+R15
+Abehav1
+R4
+R5
+Z69 DEx4 work 4 mux5 0 22 [nnaHLzA9h]1TSicI8`371
+l10
+L9
+Z70 Vk2iZz;TX1glMmQ[7h;Tc92
+Z71 !s100 ke7n4;@61EL2^Lc3[k8_U2
+R9
+32
+R19
+!i10b 1
+R20
+R67
+R68
+!i113 1
+R14
+R15
+Epc
+Z72 w1506801555
+R2
+R1
+R4
+R5
+R6
+Z73 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/PC.vhd
+Z74 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/PC.vhd
+l0
+L13
+VIoZa:aLNHA9n1a?LOW2`k3
+!s100 oh4kmj;[=XW3WJoIG;7`C1
+R9
+32
+R26
+!i10b 1
+R27
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/PC.vhd|
+Z76 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/PC.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R1
+R4
+R5
+DEx4 work 2 pc 0 22 IoZa:aLNHA9n1a?LOW2`k3
+l25
+L22
+V85Ol?<fc7`6WNmnG3N1Q?1
+!s100 iZJ??`Ofio0m]=C5]F>G93
+R9
+32
+R26
+!i10b 1
+R27
+R75
+R76
+!i113 1
+R14
+R15
+Eregfile
+R40
+R2
+R1
+R3
+R4
+R5
+R6
+Z77 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd
+Z78 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd
+l0
+L11
+VICoLE^cmI]F9fWIkJE8XF2
+!s100 gk80cNCBKceDlSAYg9fNE1
+R9
+32
+Z79 !s110 1506737730
+!i10b 1
+R58
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd|
+Z81 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd|
+!i113 1
+R14
+R15
+Acomp
+R2
+R1
+R3
+R4
+R5
+DEx4 work 7 regfile 0 22 ICoLE^cmI]F9fWIkJE8XF2
+l35
+L22
+Vc>MiU>Blb1:=X]UQn;^cc2
+!s100 :n@?Kcb3Ke[KG`TV64h1n2
+R9
+32
+R79
+!i10b 1
+R58
+R80
+R81
+!i113 1
+R14
+R15
+Eregisters
+Z82 w1506801444
+R2
+R1
+R3
+R4
+R5
+R6
+R77
+R78
+l0
+L8
+Vj[_n9VZY9JzJ4;;;7[U>E0
+!s100 Ib3_XCiWh<CCb?LOB09;F1
+R9
+32
+R10
+!i10b 1
+R11
+R80
+R81
+!i113 1
+R14
+R15
+Acomp
+R2
+R1
+R3
+R4
+R5
+DEx4 work 9 registers 0 22 j[_n9VZY9JzJ4;;;7[U>E0
+l30
+L17
+VNBi^NMhR4F^S<KZ1nO5fd3
+!s100 T6GjG>Yc6_cIYM8I1i5Nm1
+R9
+32
+R10
+!i10b 1
+R11
+R80
+R81
+!i113 1
+R14
+R15
+Eshiftleft2
+Z83 w1506798982
+R3
+R4
+R5
+R6
+Z84 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/shiftleft2.vhd
+Z85 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/shiftleft2.vhd
+l0
+L5
+Vc>SKXlbC>43dzAV=j^LHb1
+!s100 n::1:03[=iCCM:RZFPJbm2
+R9
+32
+R19
+!i10b 1
+R20
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/shiftleft2.vhd|
+Z87 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/shiftleft2.vhd|
+!i113 1
+R14
+R15
+Adf
+R3
+R4
+R5
+DEx4 work 10 shiftleft2 0 22 c>SKXlbC>43dzAV=j^LHb1
+l15
+L12
+V]?8GEoWckW<2:LQIKS8f70
+!s100 _fAod;36bD5e3kA2d8_YB1
+R9
+32
+R19
+!i10b 1
+R20
+R86
+R87
+!i113 1
+R14
+R15
+Eshiftleft2jump
+R43
+R3
+R4
+R5
+R6
+Z88 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sll2.vhd
+Z89 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sll2.vhd
+l0
+L5
+VGAmZlZ5jnG9I9R]iB>=BX3
+!s100 7HD7EkA:`AQ^[EUYje^`W3
+R9
+32
+R19
+!i10b 1
+R20
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sll2.vhd|
+Z91 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sll2.vhd|
+!i113 1
+R14
+R15
+Adf
+R3
+R4
+R5
+DEx4 work 14 shiftleft2jump 0 22 GAmZlZ5jnG9I9R]iB>=BX3
+l13
+L12
+VhK^D_fK2=J_]fzF_VC<nJ0
+!s100 mVQ@b5kB:nbMd?<?ILRF_0
+R9
+32
+R19
+!i10b 1
+R20
+R90
+R91
+!i113 1
+R14
+R15
+Esign_extend
+w1506737642
+R3
+R4
+R5
+R6
+Z92 8C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd
+Z93 FC:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd
+l0
+L6
+Vkika]QRUoL77YlmlmYo`]1
+!s100 afGOTa6Q8YCiXRjCz[4jE1
+R9
+32
+!s110 1506737647
+!i10b 1
+!s108 1506737647.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd|
+Z95 !s107 C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd|
+!i113 1
+R14
+R15
+Abehav
+w1506737690
+R3
+R4
+R5
+DEx4 work 11 sign_extend 0 22 kika]QRUoL77YlmlmYo`]1
+l14
+L13
+VI3R?>6;K2oS@NTCnl6IR@0
+!s100 R7`U_=5^lPoPm0@X_G5Nd1
+R9
+32
+Z96 !s110 1506737729
+!i10b 1
+Z97 !s108 1506737729.000000
+R94
+R95
+!i113 1
+R14
+R15
+Esignextend
+Z98 w1506801441
+R3
+R4
+R5
+R6
+R92
+R93
+l0
+L6
+VK8aekBY[W?^[IO;]]ZNTm0
+!s100 1B9AHh:4EOJGj4ZDYcj4F3
+R9
+32
+R10
+!i10b 1
+R11
+R94
+R95
+!i113 1
+R14
+R15
+Abehav
+R3
+R4
+R5
+DEx4 work 10 signextend 0 22 K8aekBY[W?^[IO;]]ZNTm0
+l15
+L14
+V;Zf9FC@iNT1a09CLAcX]Z2
+!s100 ;fb<XVdBGi?>;=h3=XiJb1
+R9
+32
+R10
+!i10b 1
+R11
+R94
+R95
+!i113 1
+R14
+R15
+Esll26
+R40
+R3
+R4
+R5
+R6
+R88
+R89
+l0
+L5
+V]acL3RdTE3Kb8NC51^TW^2
+!s100 EmlUIM@WEI<]RD<CF77dV3
+R9
+32
+R96
+!i10b 1
+R97
+R90
+R91
+!i113 1
+R14
+R15
+Adf
+R3
+R4
+R5
+DEx4 work 5 sll26 0 22 ]acL3RdTE3Kb8NC51^TW^2
+l12
+L11
+VPmWcNe8P;j?GFkVl:6OYh3
+!s100 R?Bd8<@@DQeec`j5OBedl3
+R9
+32
+R96
+!i10b 1
+R97
+R90
+R91
+!i113 1
+R14
+R15

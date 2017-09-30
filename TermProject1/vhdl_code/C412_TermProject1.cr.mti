@@ -1,0 +1,143 @@
+C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/PC.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/PC.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity pc
+-- Compiling architecture behavioral of pc
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/shiftleft2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/shiftleft2.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ShiftLeft2
+-- Compiling architecture df of ShiftLeft2
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/ALUControl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/ALUControl.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alucontrol
+-- Compiling architecture behavioral of alucontrol
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/InstructionMemory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/InstructionMemory.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InstMemory
+-- Compiling architecture behavioral of InstMemory
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sll2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sll2.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ShiftLeft2Jump
+-- Compiling architecture df of ShiftLeft2Jump
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mipProcessor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mipProcessor.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CPU
+-- Compiling architecture structural of CPU
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux5.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux5.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux5
+-- Compiling architecture behav1 of mux5
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/mux32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32
+-- Compiling architecture behav1 of mux32
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/control_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/control_unit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Control
+-- Compiling architecture behav of Control
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/memory.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DataMemory
+-- Compiling architecture behavioral of DataMemory
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/alu.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/aluadd.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/aluadd.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALUADD
+-- Compiling architecture Behavioral of ALUADD
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity registers
+-- Compiling architecture comp of registers
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity AND2
+-- Compiling architecture behav of AND2
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SignExtend
+-- Compiling architecture behav of SignExtend
+
+} {} {}}
