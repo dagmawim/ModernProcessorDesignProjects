@@ -1,0 +1,651 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.4c/examples
+T_opt
+!s110 1489431374
+VYKhlnLP5Ca86Zm8^>HPnb0
+04 13 10 work mipsprocessor structural 1
+=1-74e6e2e16eb9-58c6eb4e-358-6100
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4c;61
+R0
+T_opt1
+!s110 1489431480
+VL8FWD:ZocFC2A1WKS9BA>0
+04 2 10 work pc behavioral 1
+=1-74e6e2e16eb9-58c6ebb8-10c-4c2c
+R1
+n@_opt1
+R2
+R0
+Ealu
+Z3 w1489363534
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 dC:/Users/dmm474/Desktop/WORKING MIPS Processor
+Z10 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu.vhd
+Z11 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/alu.vhd
+l0
+L7
+VFB<cfeJ?2WX_DD1@=d;<X1
+!s100 H=4Eb4aW;4c0^7US>Yc>V3
+Z12 OL;C;10.4c;61
+32
+Z13 !s110 1489431547
+!i10b 1
+Z14 !s108 1489431547.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu.vhd|
+Z16 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu.vhd|
+!i113 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1
+Abehavioral
+R4
+R5
+R6
+R7
+R8
+DEx4 work 3 alu 0 22 FB<cfeJ?2WX_DD1@=d;<X1
+l18
+L15
+V6HoJSZZk0]lJAE`5]NKaK2
+!s100 Dz6L?O61X[l3IeSANjJPf0
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ealuadd
+R3
+R6
+R7
+R8
+R9
+Z19 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu_adder.vhd
+Z20 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/alu_adder.vhd
+l0
+L7
+VeQzQ8m@4H>dB471`Q8z2m0
+!s100 gIQ@@IJPdZO7Xn4_:G_C[0
+R12
+32
+R13
+!i10b 1
+R14
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu_adder.vhd|
+Z22 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu_adder.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R6
+R7
+R8
+DEx4 work 6 aluadd 0 22 eQzQ8m@4H>dB471`Q8z2m0
+l15
+L13
+VS9WOSFDXCJJd<iain7XDP1
+!s100 ^k9Q;djSnd0dJffVcM`Ze1
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 0
+R17
+R18
+Ealucontrol
+Z23 w1489363530
+R5
+R4
+R7
+R8
+R9
+Z24 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/ALUControl.vhd
+Z25 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/ALUControl.vhd
+l0
+L11
+Vj>WcTmRF0jG=SbOWBA3^i2
+!s100 =;ZEU1==i<ge^QClQ@@1;0
+R12
+32
+R13
+!i10b 1
+R14
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/ALUControl.vhd|
+Z27 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/ALUControl.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R5
+R4
+R7
+R8
+DEx4 work 10 alucontrol 0 22 j>WcTmRF0jG=SbOWBA3^i2
+l21
+L20
+VPhk6?OBY;<1`J7WFgM1lX0
+!s100 ZF40a_MQD2U_[0?gQQzCV1
+R12
+32
+R13
+!i10b 1
+R14
+R26
+R27
+!i113 0
+R17
+R18
+Econcatenate
+Z28 w1489363528
+R7
+R8
+R9
+Z29 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/concatenate.vhd
+Z30 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/concatenate.vhd
+l0
+L4
+V99HBjWl_8RA0Z:[EWYjId3
+!s100 MgR][Q2OL`J]aLoNAeU]X1
+R12
+32
+R13
+!i10b 1
+R14
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/concatenate.vhd|
+Z32 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/concatenate.vhd|
+!i113 0
+R17
+R18
+Adf
+R7
+R8
+DEx4 work 11 concatenate 0 22 99HBjWl_8RA0Z:[EWYjId3
+l11
+L10
+VAnOeJ]MCmIM5gaUbVd:hk2
+!s100 lbga6n:DLh`O^CAGjbi551
+R12
+32
+R13
+!i10b 1
+R14
+R31
+R32
+!i113 0
+R17
+R18
+Econtrol_unit
+Z33 w1489363532
+R7
+R8
+R9
+Z34 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/control_unit.vhd
+Z35 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/control_unit.vhd
+l0
+L4
+VfJRndkd6eAnNNa6`1nm9n3
+!s100 FLhVI8i;fTRZEPUG]kn[h2
+R12
+32
+R13
+!i10b 1
+R14
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/control_unit.vhd|
+Z37 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/control_unit.vhd|
+!i113 0
+R17
+R18
+Abehav
+R7
+R8
+DEx4 work 12 control_unit 0 22 fJRndkd6eAnNNa6`1nm9n3
+l19
+L18
+VChjJJ`c32fVSjA;H2`[6k3
+!s100 hZX_jIK9GGDL;C2XMlDEi3
+R12
+32
+R13
+!i10b 1
+R14
+R36
+R37
+!i113 0
+R17
+R18
+Einstructionmemory
+Z38 w1489431313
+R5
+R4
+R7
+R8
+R9
+Z39 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/InstructionMemory.vhd
+Z40 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/InstructionMemory.vhd
+l0
+L13
+V6KXQ4IP2ICiZjWc>]5>F02
+!s100 NIAS5>Ll7]@][I2>dLSZ30
+R12
+32
+R13
+!i10b 1
+R14
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/InstructionMemory.vhd|
+Z42 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/InstructionMemory.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R5
+R4
+R7
+R8
+DEx4 work 17 instructionmemory 0 22 6KXQ4IP2ICiZjWc>]5>F02
+l60
+L20
+V56[MMQ6]Q0:NUiaSV5iBb1
+!s100 07B?;zX1F]FiMM0MMZ6jF3
+R12
+32
+R13
+!i10b 1
+R14
+R41
+R42
+!i113 0
+R17
+R18
+Ememory
+R33
+R5
+R4
+R7
+R8
+R9
+Z43 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/memory.vhd
+Z44 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/memory.vhd
+l0
+L12
+VEB_jnoad2MVfP0HE9=:Oo1
+!s100 JlzkbXT:oeB<YXPzfE;g51
+R12
+32
+R13
+!i10b 1
+R14
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/memory.vhd|
+Z46 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/memory.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R5
+R4
+R7
+R8
+DEx4 work 6 memory 0 22 EB_jnoad2MVfP0HE9=:Oo1
+l59
+L21
+V]:7:V2fM?aT@9P2Eb=J>^0
+!s100 LNF;Cfa9zQ65FaBLX6YIl0
+R12
+32
+R13
+!i10b 1
+R14
+R45
+R46
+!i113 0
+R17
+R18
+Emipsprocessor
+Z47 w1489430310
+R5
+R4
+R7
+R8
+R9
+Z48 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/mipProcessor.vhd
+Z49 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/mipProcessor.vhd
+l0
+L7
+VgZ`YSZJh;M6QlVILc>YEd1
+!s100 27<>nc]5M_;dz;_>zIkRO1
+R12
+32
+Z50 !s110 1489431550
+!i10b 1
+Z51 !s108 1489431550.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/mipProcessor.vhd|
+Z53 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/mipProcessor.vhd|
+!i113 0
+R17
+R18
+Astructural
+R5
+R4
+R7
+R8
+DEx4 work 13 mipsprocessor 0 22 gZ`YSZJh;M6QlVILc>YEd1
+l146
+L11
+VXVQ@_=J`SX>V1AC8`CAQ?0
+!s100 oNQaeN>`b790ML4feGJ9z0
+R12
+32
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 0
+R17
+R18
+Emux32
+Z54 w1489363526
+R7
+R8
+R9
+Z55 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux32.vhd
+Z56 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/mux32.vhd
+l0
+L3
+Vk7@f;h>R<CTSKCkSJSAc_3
+!s100 7Ce8zmzT8UomI80^4lbF60
+R12
+32
+Z57 !s110 1489431552
+!i10b 1
+Z58 !s108 1489431552.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux32.vhd|
+Z60 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux32.vhd|
+!i113 0
+R17
+R18
+Abehav1
+R7
+R8
+DEx4 work 5 mux32 0 22 k7@f;h>R<CTSKCkSJSAc_3
+l9
+L8
+VC3AZRSSKk@4>U_lhko@4?0
+!s100 1T_ThWDQFORY@j=bkl_NT2
+R12
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R17
+R18
+Emux5
+Z61 w1489363522
+R7
+R8
+R9
+Z62 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux5.vhd
+Z63 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/mux5.vhd
+l0
+L3
+V`W<Q_X<e6:K2ZV7>dagL22
+!s100 b2[GzM`I>SN5QamUI9A>:0
+R12
+32
+R57
+!i10b 1
+R58
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux5.vhd|
+Z65 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux5.vhd|
+!i113 0
+R17
+R18
+Abehav1
+R7
+R8
+DEx4 work 4 mux5 0 22 `W<Q_X<e6:K2ZV7>dagL22
+l9
+L8
+VCU;QCgMlV=NckMM?@kK;D2
+!s100 4AzXHAkbJl6@f7d`HD]4z2
+R12
+32
+R57
+!i10b 1
+R58
+R64
+R65
+!i113 0
+R17
+R18
+Epc
+Z66 w1489431540
+R5
+R4
+R7
+R8
+R9
+Z67 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/ProgramCounter.vhd
+Z68 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/ProgramCounter.vhd
+l0
+L13
+V^=iD[SnmTSZRiPC5OegED3
+!s100 hKZLS4Z?>bOSBI=<DBa><2
+R12
+32
+R57
+!i10b 1
+R58
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/ProgramCounter.vhd|
+Z70 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/ProgramCounter.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R5
+R4
+R7
+R8
+DEx4 work 2 pc 0 22 ^=iD[SnmTSZRiPC5OegED3
+l23
+L22
+V2CbVI;e<nXhRh5EXdafFP1
+!s100 RkYoJSeUFUi2@ihJU0H::3
+R12
+32
+R57
+!i10b 1
+R58
+R69
+R70
+!i113 0
+R17
+R18
+Eregfile
+Z71 w1489363524
+R5
+R4
+R6
+R7
+R8
+R9
+Z72 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/register.vhd
+Z73 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/register.vhd
+l0
+L11
+VfA2AXV[``;MkH1A1XB[aS3
+!s100 gk80cNCBKceDlSAYg9fNE1
+R12
+32
+R57
+!i10b 1
+R58
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/register.vhd|
+Z75 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/register.vhd|
+!i113 0
+R17
+R18
+Acomp
+R5
+R4
+R6
+R7
+R8
+DEx4 work 7 regfile 0 22 fA2AXV[``;MkH1A1XB[aS3
+l35
+L22
+V>h>VOTdYB2jdNG`PU?7_o3
+!s100 6?iSgcW0dkQXm6MNaE7Jf3
+R12
+32
+R57
+!i10b 1
+R58
+R74
+R75
+!i113 0
+R17
+R18
+Esign_extend
+R28
+R7
+R8
+R9
+Z76 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/sign_extend.vhd
+Z77 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/sign_extend.vhd
+l0
+L5
+V3Cg[TSRS4`f>Y1YL^k>6z2
+!s100 Hi7;jfPZnC5NM^H4fjKmY3
+R12
+32
+R57
+!i10b 1
+R58
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/sign_extend.vhd|
+Z79 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/sign_extend.vhd|
+!i113 0
+R17
+R18
+Abehav
+R7
+R8
+DEx4 work 11 sign_extend 0 22 3Cg[TSRS4`f>Y1YL^k>6z2
+l12
+L11
+V3^Ka^GfkdRkEY6G_X1XjY1
+!s100 :Z]9Y0?E[=;QVVTUD]SI^3
+R12
+32
+R57
+!i10b 1
+R58
+R78
+R79
+!i113 0
+R17
+R18
+Esll26
+R54
+R6
+R7
+R8
+R9
+Z80 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll2.vhd
+Z81 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/sll2.vhd
+l0
+L5
+VX:j=<;?@TYKo<T7A^:dm<3
+!s100 EmlUIM@WEI<]RD<CF77dV3
+R12
+32
+R57
+!i10b 1
+R58
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll2.vhd|
+Z83 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll2.vhd|
+!i113 0
+R17
+R18
+Adf
+R6
+R7
+R8
+Z84 DEx4 work 5 sll26 0 22 X:j=<;?@TYKo<T7A^:dm<3
+l12
+L11
+Z85 VdIb<6X45>C9INj8@Tmc`S0
+Z86 !s100 =?7P<EfV79iXfSMko9RD;1
+R12
+32
+R57
+!i10b 1
+R58
+R82
+R83
+!i113 0
+R17
+R18
+Esll32
+R71
+R6
+R7
+R8
+R9
+Z87 8C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll32.vhd
+Z88 FC:/Users/dmm474/Desktop/WORKING MIPS Processor/sll32.vhd
+l0
+L5
+VYVAOg3o8iYk4<GL630I]J3
+!s100 m5kGZ7R8PlN4D@VMO=6TB2
+R12
+32
+R13
+!i10b 1
+R14
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll32.vhd|
+Z90 !s107 C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll32.vhd|
+!i113 0
+R17
+R18
+Adf
+R6
+R7
+R8
+DEx4 work 5 sll32 0 22 YVAOg3o8iYk4<GL630I]J3
+l12
+L11
+VUS;3CWOmbFDJ_N8[1`gQE3
+!s100 5>l3zP[7[Md]NzER^UQHn2
+R12
+32
+R13
+!i10b 1
+R14
+R89
+R90
+!i113 0
+R17
+R18

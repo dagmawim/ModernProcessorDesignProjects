@@ -1,0 +1,130 @@
+{C:/Users/dmm474/Desktop/WORKING MIPS Processor/register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/register.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity regfile
+-- Compiling architecture comp of regfile
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/concatenate.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/concatenate.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity concatenate
+-- Compiling architecture df of concatenate
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/sign_extend.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/sign_extend.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sign_extend
+-- Compiling architecture behav of sign_extend
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll32.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll32.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sll32
+-- Compiling architecture df of sll32
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/InstructionMemory.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/InstructionMemory.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity instructionMemory
+-- Compiling architecture behavioral of instructionMemory
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/ALUControl.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/ALUControl.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alucontrol
+-- Compiling architecture behavioral of alucontrol
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll2.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/sll2.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sll26
+-- Compiling architecture df of sll26
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/mipProcessor.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/mipProcessor.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mipsProcessor
+-- Compiling architecture structural of mipsProcessor
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux5.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux5.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux5
+-- Compiling architecture behav1 of mux5
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux32.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/mux32.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32
+-- Compiling architecture behav1 of mux32
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/control_unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/control_unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_unit
+-- Compiling architecture behav of control_unit
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/memory.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/memory.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memory
+-- Compiling architecture behavioral of memory
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu_adder.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu_adder.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALUADD
+-- Compiling architecture Behavioral of ALUADD
+
+} {} {}} {C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/dmm474/Desktop/WORKING MIPS Processor/alu.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture Behavioral of ALU
+
+} {} {}}

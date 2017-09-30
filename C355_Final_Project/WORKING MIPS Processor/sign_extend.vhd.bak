@@ -1,0 +1,34 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+--extend 16 bits to 32 bits
+entity sign_extend is
+port(
+	signIn: in std_logic_vector(15 downto 0); --16 bit
+	signOut: out std_logic_vector(31 downto 0) --32 bit
+);
+end sign_extend;
+
+architecture behav of sign_extend is
+begin
+
+	--y <= std_logic_vector(resize(signed(x), y'length));
+
+	signOut <= std_logic_vector(resize(signed(signin), signOut'length));
+
+--process(signIn)
+--	variable tmp: std_logic_vector(31 downto 0);
+--	begin
+--		tmp(15 downto 0):= signIn;
+--
+--		if (signIn(15) = '0') then
+	--		tmp(31 downto 16):= "0000000000000000";
+--		else
+	--		tmp(31 downto 16):= "1111111111111111";
+
+--		signOut<= tmp;
+--end if;
+--end process;
+end behav;
+
