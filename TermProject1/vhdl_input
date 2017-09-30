@@ -1,0 +1,8 @@
+lw $s5,0($t0) 
+lw $s6,4($t0) 
+slt $t7,$s5,$s6 
+beq $t7,$zero,12 
+sub $s1,$s2,$s3 
+j 28 
+add $s1,$s2,$s3 
+sw $s1,12($t0) 
