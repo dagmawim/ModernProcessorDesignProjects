@@ -109,17 +109,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity ALUADD
 -- Compiling architecture Behavioral of ALUADD
 
-} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity registers
--- Compiling architecture comp of registers
-
 } {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/and2.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -130,6 +119,17 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity AND2
 -- Compiling architecture behav of AND2
+
+} {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/register.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity registers
+-- Compiling architecture comp of registers
 
 } {} {}} C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Windows/System32/config/systemprofile/Desktop/Developer/ModernProcessorDesignProjects/TermProject1/vhdl_code/sign_extend.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
