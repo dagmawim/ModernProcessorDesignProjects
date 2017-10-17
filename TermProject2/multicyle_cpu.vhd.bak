@@ -156,7 +156,7 @@ IR1: IR port map(I,clk,IRWrite,instruction);
 MR1: MDR port map(I,clk,J);
 M2:  mux5 port map(instruction(20 downto 16), instruction(15 downto 11),RegDst, K);
 M3:  mux32 port map(F,J,MemtoReg,L);
-C1:  MulticycleControl port map(instruction(31 downto 26), clk, RegDst, RegWrite, ALUSrcA, IRWrite, MemtoReg, 
+C1:  MulticycleControl port map(instruction(31 downto 25), clk, RegDst, RegWrite, ALUSrcA, IRWrite, MemtoReg, 
 				MemWrite, MemRead,IorD, PCWrite, PCWriteCond, ALUSrcB, ALUOp, PCSource);
 S1:  SignExtend port map(instruction(15 downto 0), Q);
 SL1: ShiftLeft2 port map(Q, R);
