@@ -1,0 +1,31 @@
+------------------------------------------------------
+-- ECEC 355 Computer Architecture
+-- MIPS Single Cycle Datapath
+-- Dagmawi  Mulugeta - Instruction Memory
+------------------------------------------------------
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+--use IEEE.std_logic_arith.all;
+--use ieee.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+
+
+entity IR is
+	port (  x: in STD_LOGIC_VECTOR (31 downto 0); 
+		clk, IRWrite:in STD_LOGIC;
+		y: out STD_LOGIC_VECTOR(31 downto 0) );
+end IR;
+
+architecture behavioral of IR is	  
+
+	begin
+	process(clk)
+	begin
+		if rising_edge(clk) then
+			if IRWrite='1' then
+				y <= x;
+			end if;
+		end if;
+	end process;
+end behavioral;

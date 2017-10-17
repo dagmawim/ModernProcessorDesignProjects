@@ -1,0 +1,28 @@
+------------------------------------------------------
+-- ECEC 355 Computer Architecture
+-- MIPS Single Cycle Datapath
+-- Dagmawi  Mulugeta - Data Memory
+------------------------------------------------------
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+--use IEEE.std_logic_arith.all;
+--use ieee.std_logic_unsigned.all;
+use IEEE.numeric_std.all;
+
+
+entity MDR is
+port(x:in std_logic_vector(31 downto 0);
+     clk:in std_logic;
+     y:out std_logic_vector(31 downto 0));
+end MDR;
+
+architecture behavioral of MDR is	  
+begin
+	process(clk)
+	begin
+		if rising_edge(clk) then
+			y <= x;
+		end if;
+	end process;
+end behavioral;
