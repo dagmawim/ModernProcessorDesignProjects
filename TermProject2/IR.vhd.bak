@@ -20,7 +20,7 @@ end IR;
 architecture behavioral of IR is	  
 
 	begin
-	process(IRWrite,x)
+	process(IRWrite,x,clk)
 	begin
 		if IRWrite='1'  then --
 			y <= x;

@@ -1,7 +1,7 @@
 ------------------------------------------------------
 -- ECEC 355 Computer Architecture
 -- MIPS Single Cycle Datapath
--- Dagmawi  Mulugeta - Instruction Memory
+-- Dagmawi  Mulugeta - Data Memory
 ------------------------------------------------------
 
 library IEEE;
@@ -11,18 +11,17 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 
-entity IR is
-	port (  x: in STD_LOGIC_VECTOR (31 downto 0); 
-		clk, IRWrite:in STD_LOGIC;
-		y: out STD_LOGIC_VECTOR(31 downto 0) );
-end IR;
+entity MDR is
+port(x:in std_logic_vector(31 downto 0);
+     clk:in std_logic;
+     y:out std_logic_vector(31 downto 0));
+end MDR;
 
-architecture behavioral of IR is	  
-
+architecture behavioral of MDR is	  
+begin
+	process(x)
 	begin
-	process(IRWrite,x)
-	begin
-		if IRWrite='1'  then --
+		if rising_edge(clk) then
 			y <= x;
 		end if;
 	end process;

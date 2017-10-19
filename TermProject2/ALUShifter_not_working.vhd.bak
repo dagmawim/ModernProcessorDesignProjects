@@ -69,12 +69,12 @@ end component;
                                if signal_2(5 downto 0) = "000000" then
                                     shamft <= signal_2(10 downto 6);
 				    LR := '1';
-                                    --result <= shifter(signal_1, shamft,LR);
+                                    result <= shifter(signal_1, shamft,LR);
                                 end if;
                                if signal_2(5 downto 0) = "000010" then
                                      shamft <= signal_2(10 downto 6);
 			             LR := '0';
-                                     --result <= shifter(signal_1, shamft, LR);
+                                     result <= shifter(signal_1, shamft, LR);
                                 end if;
 
 

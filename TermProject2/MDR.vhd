@@ -19,10 +19,10 @@ end MDR;
 
 architecture behavioral of MDR is	  
 begin
-	process(clk)
+	process(x)
 	begin
-		if rising_edge(clk) then
+		--if rising_edge(clk) then
 			y <= x;
-		end if;
+		--end if;
 	end process;
 end behavioral;

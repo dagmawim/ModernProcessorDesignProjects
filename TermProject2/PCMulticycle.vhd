@@ -14,11 +14,13 @@ architecture behavioral of PCMulticycle is
         --signal constant_four: std_logic_vector(31 downto 0):= "00000000000000000000000000000100";
 
 	begin
-	process(clk,AddressIn)
+	process(AddressIn,d,clk)
 		begin	
-		if rising_edge(clk) and d = '1' then
-			Address <= AddressIn;
-			AddressOut <= Address;
+			--falling_edge(clk) and 
+		if d ='1' then
+			--Address <= AddressIn;
+			--AddressOut <= Address;
+			AddressOut <= AddressIn;
 		end if;
 	end process;
 end behavioral; 

@@ -16,7 +16,8 @@ architecture behav of MulticycleControl is
 type states is (s0, s1, s2, s3, s4, s5, s6, s7, s8, s9); -- states for FSM
 signal current_state : states := s0; --Start at state s0
 begin 
-	process(clk)
+	process
+--(clk)
 	begin
 	--if rising_edge(clk) then
 	case current_state is

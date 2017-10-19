@@ -187,14 +187,14 @@ signal data_mem: mem_array := (
 begin 
 	process(MemRead,MemWrite,WriteData,Address,clk)
 	begin
-	if (MemRead='1' and rising_edge(clk)) then
+	if (MemRead='1') and falling_edge(clk) then --  --not sure about the clk 
 		--convert 4 bytes into 32 bit instr/data word
 		ReadData <= (data_mem(conv_integer(Address))   & 
 			     data_mem(conv_integer(Address)+1) & 
                              data_mem(conv_integer(Address)+2) & 
                              data_mem(conv_integer(Address)+3));
 	
-	elsif (MemWrite='1' and rising_edge(clk)) then
+	elsif (MemWrite='1') and falling_edge(clk) then --and falling_edge(clk)
 		--parse the 32 bit WriteData into the byte addressed memory
 		data_mem(conv_integer(Address))   <= WriteData(31 downto 24);
 		data_mem(conv_integer(Address)+1) <= WriteData(23 downto 16);
