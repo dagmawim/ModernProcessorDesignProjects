@@ -33,6 +33,7 @@ end component;
 	process(signal_1,signal_2,operation)
       
 	variable var1,var2,var3:integer;
+	VARIABLE LR : std_logic;
 	begin
 		zero <= '0';
 		case operation is
@@ -65,15 +66,16 @@ end component;
 			when "1111" => -- COME BACK AND THINK ABOUT THIS!!!!!!! WHY 1111
 				--result <= std_logic_vector(unsigned(signal_2) sll to_integer(unsigned(shift)));
 				--sht <= to_integer(unsigned(shift));
-                               -- when "0100" =>
-                               --          if signal_2(5 downto 0) = "000000" then
-                               --                shamft <= signal_2(10 downto 6);
-                               --                result <= shifter(signal_1, shamft,'1');
-                               --            end if;
-                               --             if signal_2(5 downto 0) = "000010" then
-                               --                shamft <= signal_2(10 downto 6);
-                               --                result <= shifter(signal_1, shamft, '0');
-                               --            end if;
+                               if signal_2(5 downto 0) = "000000" then
+                                    shamft <= signal_2(10 downto 6);
+				    LR := '1';
+                                    result <= shifter(signal_1, shamft,LR);
+                                end if;
+                               if signal_2(5 downto 0) = "000010" then
+                                     shamft <= signal_2(10 downto 6);
+			             LR := '0';
+                                     result <= shifter(signal_1, shamft, LR);
+                                end if;
 
 
 			when others  =>

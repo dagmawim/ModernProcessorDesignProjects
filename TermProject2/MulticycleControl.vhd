@@ -19,7 +19,7 @@ begin
 	process(clk)
 	begin
 
-	if clk='1' then
+	--if (clk='1') then
 	case current_state is
 		when s0 =>
 			--First line is deassertions from previous states
@@ -77,6 +77,6 @@ begin
 		when others => -- if any others commands, just stay in state s0
 			current_state <= s0;
 	end case;
-	end if;
+	--end if;
 	end process;
 end behav;

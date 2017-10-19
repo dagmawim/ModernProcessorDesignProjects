@@ -12,7 +12,7 @@ architecture behav of RegA is
 	begin
 		process(clk)
 			begin
-				if clk = '1' and clk'event then --on rising edge of clk
+				if rising_edge(clk) then --on rising edge of clk
 					y <= x; -- store value of x in y
 				end if;
 		end process;

@@ -64,7 +64,7 @@ end component;
 
 component Memory
 	port(WriteData:in std_logic_vector(31 downto 0); Address:in std_logic_vector(31 downto 0); 
-	     MemRead,MemWrite:in std_logic;
+	     MemRead,MemWrite,clk:in std_logic;
              ReadData:out std_logic_vector(31 downto 0));
 end component;
 
@@ -138,7 +138,8 @@ end component;
 
 
 --signals--
-signal C,E,F,G,H,I,J,L,M,N,P,Q,R,S,T,U,instruction: std_logic_vector(31 downto 0);
+signal C: std_logic_vector(31 downto 0) := "00000000000000000000000000000000";
+signal E,F,G,H,I,J,L,M,N,P,Q,R,S,T,U,instruction: std_logic_vector(31 downto 0);
 signal V: std_logic_vector(27 downto 0);
 signal W,D, RegDst, RegWrite, ALUSrcA, IRWrite, MemtoReg, MemWrite, MemRead, IorD, PCWrite, PCWriteCond, Zero: std_logic; 
 signal ALUSrcB, ALUOp, PCSource: std_logic_vector(1 downto 0);
@@ -148,10 +149,9 @@ signal K:std_logic_vector(4 downto 0);
 ------
 
 begin
-
 P1:  PCMulticycle port map(clk,D,C,E);
-M1:  mux32 port map(E,F,IorD);
-ME2: Memory port map(H,G,MemRead,MemWrite,I);
+M1:  mux32 port map(E,F,IorD,G);
+ME2: Memory port map(H,G,MemRead,MemWrite,clk,I);
 IR1: IR port map(I,clk,IRWrite,instruction);
 MR1: MDR port map(I,clk,J);
 M2:  mux5 port map(instruction(20 downto 16), instruction(15 downto 11),RegDst, K);

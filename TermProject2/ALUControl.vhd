@@ -46,7 +46,7 @@ begin
 						when "101010" =>
 							operation <= "0111";
 					        when "000000" => 
-						        operation <= "1111"; 
+						        operation <= "1111";
 						when others =>
 							operation <= "0000";
 					end case;

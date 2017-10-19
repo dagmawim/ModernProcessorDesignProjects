@@ -39,7 +39,7 @@ addr_w:=CONV_INTEGER(WR);
 RD1<=regarray(addr_a);-- read data should be contents of register(i)with i being the numerical value of the 5 bit binary  ** Note 5 bit binary (11111) == 31
 RD2<=regarray(addr_b);
 
-if (RegWrite='1' and clk'event) then 
+if (RegWrite='1' and rising_edge(clk)) then 
 	regarray(addr_w)<= WD;
 end if;
 
