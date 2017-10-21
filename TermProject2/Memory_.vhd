@@ -72,17 +72,17 @@ signal data_mem: mem_array := (
     X"00", --36
     X"00",
     X"00", 
-    X"01",
+    X"00",
 
-    X"04", --40
-    X"02",  
+    X"00", --40
+    X"00",  
     X"00", 
-    X"00",
+    X"04",
     
-    X"04", --44
-    X"00",
-    X"00", 
-    X"00",
+    X"FF", --44
+    X"FF",
+    X"FF", 
+    X"FB",
 
     X"00", --48
     X"00",  
@@ -187,14 +187,14 @@ signal data_mem: mem_array := (
 begin 
 	process(MemRead,MemWrite,WriteData,Address,clk)
 	begin
-	if (MemRead='1') and falling_edge(clk) then --  --not sure about the clk 
+	if (MemRead='1') then --  --not sure about the clk 
 		--convert 4 bytes into 32 bit instr/data word
 		ReadData <= (data_mem(conv_integer(Address))   & 
 			     data_mem(conv_integer(Address)+1) & 
                              data_mem(conv_integer(Address)+2) & 
                              data_mem(conv_integer(Address)+3));
 	
-	elsif (MemWrite='1') and falling_edge(clk) then --and falling_edge(clk)
+	elsif (MemWrite='1') then --and falling_edge(clk)
 		--parse the 32 bit WriteData into the byte addressed memory
 		data_mem(conv_integer(Address))   <= WriteData(31 downto 24);
 		data_mem(conv_integer(Address)+1) <= WriteData(23 downto 16);

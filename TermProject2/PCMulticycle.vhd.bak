@@ -17,7 +17,7 @@ architecture behavioral of PCMulticycle is
 	process(AddressIn,d,clk)
 		begin	
 			--falling_edge(clk) and 
-		if d ='1' and rising_edge(clk) then
+		if clk'event and clk='1' and d ='1' then
 			--Address <= AddressIn;
 			--AddressOut <= Address;
 			AddressOut <= AddressIn;
