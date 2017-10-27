@@ -194,7 +194,7 @@ begin
                              data_mem(conv_integer(Address)+2) & 
                              data_mem(conv_integer(Address)+3));
 	
-	elsif (MemWrite='1') then --and falling_edge(clk)
+	elsif (MemWrite='1') and falling_edge(clk) then --
 		--parse the 32 bit WriteData into the byte addressed memory
 		data_mem(conv_integer(Address))   <= WriteData(31 downto 24);
 		data_mem(conv_integer(Address)+1) <= WriteData(23 downto 16);
