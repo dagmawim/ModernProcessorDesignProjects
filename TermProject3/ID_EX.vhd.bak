@@ -1,0 +1,59 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+entity IDEXPR is
+	port( clk: in std_logic;
+	--Write Back Stage Data Signals
+	--PCSource_In, MemtoReg_In
+ 	WBCTRLIN:in std_logic_vector(1 downto 0);
+
+	--Branch_In, MemRead_In, MemWrite_In
+ 	MCTRLIN:in std_logic_vector(2 downto 0);
+
+	-- Execute Stage Data Signals
+	-- RegDest_In, ALUOp_In, ALUSrc_In
+	EXCTRLIN:in std_logic_vector(3 downto 0);
+	
+	-- Data Signals
+	--L_ID, C_ID, D_ID, E_ID
+	LIN,CIN,DIN,EIN:in std_logic_vector(31 downto 0);
+
+	--RT_ID, RD_ID
+	RTIN,RDIN:in std_logic_vector(4 downto 0);
+
+	WBCTRLOUT:out std_logic_vector(1 downto 0);
+	MCTRLOUT:out std_logic_vector(2 downto 0);
+	EXCTRLOUT:out std_logic_vector(3 downto 0);\
+	LOUT,COUT,DOUT,EOUT:out std_logic_vector(31 downto 0);
+	RTOUT,RDOUT:out std_logic_vector(4 downto 0));
+end IDEXPR;
+
+architecture behavioral of IDEXPR is
+	
+	-- The Data will transfer one the rising edge of the clock for each cycle
+	begin
+	process(clk)
+	begin
+		if rising_edge(clk) then
+			--Write Back Data Signals
+			WBCTRLOUT <= WBCTRLIN;
+	
+			-- Memory Stage Data Signals 
+			MCTRLOUT <= MCTRLIN;
+	
+			-- Execute Stage Data Signals
+			EXCTRLOUT <= EXCTRLIN;
+	
+			-- Data Signals
+			LOUT <= LIN;
+			COUT <= CIN;
+			DOUT <= DIN;
+			EOUT <= EIN;
+
+			RTOUT <= RTIN;
+			RDOUT <= RDIN;
+		end if;
+	end process; 
+end behavioral;
