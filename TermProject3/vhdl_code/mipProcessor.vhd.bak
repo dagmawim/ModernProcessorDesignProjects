@@ -157,8 +157,9 @@ end component;
 
 ------------------------Signals----------
 signal LIF, MMEM, P, A, IIF, LID, instruction, J, CID, DID, EID, LEX, CEX, DEX, EEX, K, MEX, F, GEX, HMEM, HWB, GMEM, DMEM, GWB: std_logic_vector(31 downto 0);
-signal PCSrc, ZEX, ZMEM: std_logic;
-signal BWB, RTEX, RDEX, BEX: std_logic_vector(4 downto 0);
+signal PCSrc: std_logic := '0';
+signal ZEX, ZMEM: std_logic;
+signal BWB, RTEX, RDEX, BEX, BMEM: std_logic_vector(4 downto 0);
 signal wb, wbex, wbmem, wbwb: std_logic_vector(1 downto 0);
 signal m, memex, memmem: std_logic_vector(2 downto 0);
 signal ex, exex, Operation: std_logic_vector(3 downto 0);

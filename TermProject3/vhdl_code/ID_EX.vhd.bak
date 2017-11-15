@@ -25,7 +25,7 @@ entity IDEXPR is
 
 	WBCTRLOUT:out std_logic_vector(1 downto 0);
 	MCTRLOUT:out std_logic_vector(2 downto 0);
-	EXCTRLOUT:out std_logic_vector(3 downto 0);\
+	EXCTRLOUT:out std_logic_vector(3 downto 0);
 	LOUT,COUT,DOUT,EOUT:out std_logic_vector(31 downto 0);
 	RTOUT,RDOUT:out std_logic_vector(4 downto 0));
 end IDEXPR;
