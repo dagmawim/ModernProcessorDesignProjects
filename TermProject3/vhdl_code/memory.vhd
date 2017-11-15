@@ -24,13 +24,13 @@ type mem_array is array(0 to 31) of STD_LOGIC_VECTOR (31 downto 0);
 -- 32 bit memory
 signal data_mem: mem_array := (
     X"00000000", -- initialize data memory
-    X"FFFFFFFC", -- mem 1
-    X"FFFFFFFB",
+    X"00000000", -- mem 1
+    X"00000000",
+    X"00000004",
     X"00000000",
     X"00000000",
     X"00000000",
-    X"00000000",
-    X"00000000",
+    X"00000004",
     X"00000000",
     X"00000000", 
     X"00000000", -- mem 10 

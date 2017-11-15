@@ -24,14 +24,14 @@ architecture behavioral of InstMemory is
 type ins_array is array(0 to 31) of STD_LOGIC_VECTOR(31 downto 0);
 
 signal ins_mem: ins_array := (
-        X"8d150000",  
-        X"8d160004",  
-        X"02b6782a",   
-        X"100f0002",     
-        X"02538822",     
-        X"08000007",  
-        X"02538820",       
-        X"ad11000c",     
+        X"02959820",  
+        X"8d100000",  
+        X"8d110004",   
+        X"0296b822",     
+        X"ad130008",     
+        X"00000000",  
+        X"00000000",       
+        X"00000000",     
         X"00000000",         
         X"00000000",
         X"00000000", 
