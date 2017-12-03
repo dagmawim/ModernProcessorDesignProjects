@@ -1,6 +1,5 @@
 -- Floating-Point Multiplier
 -- ECEC 412 - Term Project 4
--- Anishi Patel
 -- 11/27/17
 
 library ieee;
@@ -22,31 +21,31 @@ begin
 	process(fp_a, fp_b, clk)
 
 	-- Define variables for sign, exponent (bias and unbias) and fraction for operand a and operand b and the results	
-	variable fp_a_sign: std_logic;
-	variable fp_a_exponent_bias: unsigned(7 downto 0);
-	variable fp_a_exponent_unbias: signed(7 downto 0);
-	variable fp_a_fraction: unsigned(23 downto 0); -- 24bits; bit 23 will account for hidden bit
+	variable fp_a_sign: std_logic := '0';
+	variable fp_a_exponent_bias: unsigned(7 downto 0) := (others=>'0');
+	variable fp_a_exponent_unbias: signed(7 downto 0) := (others=>'0');
+	variable fp_a_fraction: unsigned(23 downto 0) := (others=>'0'); -- 24bits; bit 23 will account for hidden bit
 
-	variable fp_b_sign: std_logic;
-	variable fp_b_exponent_bias: unsigned(7 downto 0);
-	variable fp_b_exponent_unbias: signed(7 downto 0);
-	variable fp_b_fraction: unsigned(23 downto 0); -- 24bits; bit 23 will account for hidden bit
+	variable fp_b_sign: std_logic := '0';
+	variable fp_b_exponent_bias: unsigned(7 downto 0) := (others=>'0');
+	variable fp_b_exponent_unbias: signed(7 downto 0) := (others=>'0');
+	variable fp_b_fraction: unsigned(23 downto 0) := (others=>'0'); -- 24bits; bit 23 will account for hidden bit
 
-	variable result_sign: std_logic;
-	variable result_exponent_bias: unsigned(7 downto 0);
-	variable result_exponent_unbias: signed(7 downto 0);
-	variable result_fraction: unsigned(47 downto 0); -- two 24 bit fractions (consider hidden bit)l
+	variable result_sign: std_logic := '0';
+	variable result_exponent_bias: unsigned(7 downto 0) := (others=>'0');
+	variable result_exponent_unbias: signed(7 downto 0) := (others=>'0');
+	variable result_fraction: unsigned(47 downto 0) := (others=>'0'); -- two 24 bit fractions (consider hidden bit)l
 	
 	-- Bit 23 = hidden bit; Bit 24 = store potential carry
-	variable operand1		: unsigned(24 downto 0);
-	variable operand2		: unsigned(24 downto 0);
-	variable temp_sum		: unsigned(24 downto 0);
+	variable operand1		: unsigned(24 downto 0) := (others=>'0');
+	variable operand2		: unsigned(24 downto 0) := (others=>'0');
+	variable temp_sum		: unsigned(24 downto 0) := (others=>'0');
 
 	-- Define operation related variables
 	variable shift_add_counter	: unsigned(4 downto 0);
 
 	begin
-		if rising_edge(clk) then
+		if clk'event and clk='1' then
 			fp_a_sign		:= fp_a(31);
 			fp_a_exponent_bias	:= unsigned(fp_a(30 downto 23));
 			fp_a_exponent_unbias	:= signed(fp_a_exponent_bias + "10000001"); --unbias = bias + -127 (-127 is represented in 2's comp)
@@ -67,7 +66,7 @@ begin
 			result_sign := fp_a_sign xor fp_b_sign;
 
 			--Floating Point Arthimetic based on Flowchart on pg. 322
-			-- Check for zero operands
+			-- Check for zero 
 			if (fp_a_exponent_bias = 0 and fp_a_fraction = 2**23) then
 				-- Set zero signal to 1
 				zero	 			<= '1';
