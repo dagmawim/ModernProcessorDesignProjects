@@ -45,7 +45,7 @@ begin
 	variable shift_add_counter	: unsigned(4 downto 0);
 
 	begin
-		if clk'event and clk='1' then
+--		if rising_edge(clk) then
 			fp_a_sign		:= fp_a(31);
 			fp_a_exponent_bias	:= unsigned(fp_a(30 downto 23));
 			fp_a_exponent_unbias	:= signed(fp_a_exponent_bias + "10000001"); --unbias = bias + -127 (-127 is represented in 2's comp)
@@ -129,7 +129,7 @@ begin
 				end if;
 			end if;
 			fp_result <= result_sign & std_logic_vector(result_exponent_bias) & std_logic_vector(result_fraction(45 downto 23));
-	end if;
+--	end if;
 end process;
 
 end behav;
