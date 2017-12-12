@@ -1,0 +1,67 @@
+LRU Cache Simulations
+=====================
+Part 3:
+-------
+Creating unified cache; size: 1K, associativity: 4, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.892573. 
+
+Creating unified cache; size: 2K, associativity: 4, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.897878. 
+
+Creating unified cache; size: 4K, associativity: 4, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.900531. 
+
+Creating unified cache; size: 8K, associativity: 4, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.901857. 
+
+Part 4:
+------
+Creating unified cache; size: 8K, associativity: 1, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.900531. 
+
+Creating unified cache; size: 8K, associativity: 2, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.901857. 
+
+Creating unified cache; size: 8K, associativity: 4, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.901857. 
+
+Part 5:
+-------
+Creating unified cache; size: 8K, associativity: 4, cache line: 8 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.462865. 
+
+Creating unified cache; size: 8K, associativity: 4, cache line: 16 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.692308. 
+
+Creating unified cache; size: 8K, associativity: 4, cache line: 128 bytes 
+Checking if the supplied cache parameters are powers of 2...passed. 
+Simulating the cache using trace file: simple_trace. 
+Total number of references to the cache: 754. 
+Hit rate: 0.901857. 
